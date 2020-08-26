@@ -1,0 +1,37 @@
+@import 'base/variables';
+
+@font-face {
+	font-family: PF Din Text Cond Pro;
+	src: url('/src/fonts/pfdintextcondpro-regular.ttf');
+}
+
+@font-face {
+	font-family: Karla;
+	src: url('/src/fonts/Karla-Bold.ttf');
+}
+
+
+* {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+@import 'blocks/animations';
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/contacts';
+@import 'blocks/complex';
+@import 'blocks/cards';
+
+@import 'blocks/object';
+
+@import 'blocks/adaptive';

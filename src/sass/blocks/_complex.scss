@@ -1,0 +1,142 @@
+.complex {
+    background: #fff;
+    height: 410px;
+    display: flex;
+    &__items {
+        width: 420px;
+        height: 102px;
+        padding-top: 46px;
+        padding-left: 29px;
+        display: flex;
+        margin: auto;
+        flex-direction: column;;
+    }
+    &__header {
+        width: 405px;
+        height: 19px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        padding-right: 45px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #C4C4C4;
+    }
+    &__subheader {
+        width: 405px;
+        height: 39px;
+        margin-top: 11px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 36px;
+        padding-right: 45px;
+        text-align: center;
+        color: #000000;
+    }
+    &__liner {
+        width: 405px;
+        height: 26px;
+        margin-top: 8px;
+        display: flex;
+        padding-right: 45px;
+        img {
+            width: 140px;
+            height: 26px;
+            margin: auto;
+        }
+    }
+
+/* services inj */
+
+.complex__services-wrap {
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-around;
+}
+/* neurology items */
+    &__neurology {
+        width: 125px;
+        height: 135px;
+        cursor: pointer;
+        img {
+            padding-top: 8px;
+            display: flex;
+            margin: auto;
+        }
+        
+    }
+    &__neurology-text {
+        width: 103px;
+        height: 19px;
+        display: flex;
+        margin: auto;
+        padding-top: 39px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+/* vertical line ---------------------*/
+    &__vertical {
+        width: 144px;
+        height: 0px;
+        margin-top: 62px;
+        border: 1px solid #2F80ED;
+        transform: rotate(90deg);
+    }
+/* massage items */
+    &__massage {
+        width: 125px;
+        height: 135px;
+        cursor: pointer;
+        img {
+            padding-top: 8px;
+            display: flex;
+            margin: auto;
+        }
+    }
+    &__massage-text {
+        width: 64px;
+        height: 19px;
+        display: flex;
+        margin: auto;
+        padding-top: 30px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    /* reumatology item */
+    &__rheumatology {
+        width: 125px;
+        height: 135px;
+        cursor: pointer;
+        img {
+            padding-top: 8px;
+            display: flex;
+            margin: auto;
+        }
+    }
+    &__rheumatology-text {
+        width: 124px;
+        height: 19px;
+        display: flex;
+        margin: auto;
+        padding-top: 30px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+}
+
+

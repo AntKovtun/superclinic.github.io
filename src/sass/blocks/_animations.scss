@@ -1,0 +1,72 @@
+.header__menu {
+    ul {
+        li:hover {
+            box-shadow: 0 4px 10px rgba(0,0,0,.25);
+            transition-duration: 0.7s;
+        }
+    }
+}
+
+.header__btn:hover {
+    background: #2F80ED;
+    color: #FFFFFF;
+    transition-duration: 0.7s;
+}
+
+.promo__button:hover {
+    background: #fff;
+    color: #000;
+    transition-duration: 0.7s;
+}
+
+.cards__btn:hover {
+    background: #2F80ED;
+    color: #FFFFFF;
+    transition-duration: 0.7s;
+}
+
+
+/* ----------------contacts */
+.contacts__address {
+    a:hover {
+        color: #000000;
+        transition-duration: 0.7s;
+    }
+}
+.contacts__telephone {
+    a:hover {
+        color: #000000;
+        transition-duration: 0.7s;
+    }
+}
+.contacts__mail {
+    a:hover {
+        color: #000000;
+        transition-duration: 0.7s;
+    }
+}
+
+
+
+/* ----------------- complex sections */
+
+
+.complex__neurology:hover {
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.25);
+    text-decoration: 0.4;
+}
+.complex__massage:hover {
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.25);
+    text-decoration: 0.4;
+}
+.complex__rheumatology:hover {
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.25);
+    text-decoration: 0.4;
+}
+
+.complex__massage:hover + .object {
+    margin-left: 800px;
+}
