@@ -9,11 +9,11 @@
   "author": "Quench",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.12",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^2.3.1",
     "gulp-cache": "0.2.8",
-    "gulp-cli": "^2.2.0",
+    "gulp-cli": "^2.3.0",
     "gulp-concat": "2.5.2",
     "gulp-imagemin": "2.2.1",
     "gulp-plumber": "1.0.0",
@@ -21,8 +21,9 @@
     "gulp-uglify": "1.2.0"
   },
   "dependencies": {
-    "gulp-clean-css": "^4.2.0",
+    "gulp-clean-css": "^4.3.0",
+    "imagemin": "^7.0.1",
     "jquery": "^3.5.1",
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.14.1"
   }
 }
